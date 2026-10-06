@@ -89,7 +89,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
 .brand-logo img {
@@ -120,7 +120,8 @@ a:hover {
   transition: all 0.15s ease;
 }
 
-.nav-link:hover, .nav-item.active .nav-link {
+.nav-link:hover,
+.nav-item.active .nav-link {
   color: var(--primary-color);
   background-color: var(--primary-light);
 }
@@ -354,10 +355,25 @@ a:hover {
   margin-right: 4px;
 }
 
-.badge-primary { background: #fee2e2; color: #991b1b; }
-.badge-blue { background: #dbeafe; color: #1e40af; }
-.badge-green { background: #dcfce7; color: #166534; }
-.badge-gray { background: #f1f5f9; color: #475569; }
+.badge-primary {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-green {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-gray {
+  background: #f1f5f9;
+  color: #475569;
+}
 
 .btn-sm {
   display: inline-block;
@@ -386,7 +402,7 @@ a:hover {
   height: 44px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   border: 1px solid var(--border-color);
 }
 
@@ -560,7 +576,7 @@ a:hover {
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid var(--border-color);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease;
 }
 
@@ -700,7 +716,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-}
+
   font-size: 16px;
   font-weight: bold;
 }
@@ -780,6 +796,7 @@ a:hover {
   border-bottom: 1px solid var(--border-color);
   color: #334155;
 }
+
 .home-grid {
   display: grid;
   grid-template-columns: minmax(0, 7fr) minmax(0, 3fr);
@@ -880,17 +897,20 @@ a:hover {
   border-bottom: 2px solid #f1f5f9;
 }
 
-.notice-list, .recommend-list {
+.notice-list,
+.recommend-list {
   list-style: none;
 }
 
-.notice-list li, .recommend-list li {
+.notice-list li,
+.recommend-list li {
   padding: 8px 0;
   border-bottom: 1px solid var(--border-color);
   font-size: 14px;
 }
 
-.notice-list li:last-child, .recommend-list li:last-child {
+.notice-list li:last-child,
+.recommend-list li:last-child {
   border-bottom: none;
 }
 
@@ -948,7 +968,8 @@ a:hover {
   margin-bottom: 16px;
 }
 
-.article-body ul, .article-body ol {
+.article-body ul,
+.article-body ol {
   margin-bottom: 16px;
   padding-left: 24px;
 }
@@ -1096,18 +1117,23 @@ a:hover {
     padding: 12px 0;
     gap: 12px;
   }
+
   .main-nav {
     overflow-x: auto;
     width: 100%;
     padding-bottom: 4px;
   }
+
   .nav-link {
     white-space: nowrap;
     padding: 6px 10px;
   }
-  .article-container, .page-container {
+
+  .article-container,
+  .page-container {
     padding: 20px;
   }
+
   .article-main-title {
     font-size: 22px;
   }
@@ -1242,17 +1268,22 @@ a:hover {
 }
 
 .btn-cta-secondary {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: #ffffff !important;
   padding: 10px 24px;
   border-radius: var(--radius-sm);
   font-weight: 600;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 14px;
 }
 
-.btn-cta-primary:hover { background: var(--primary-hover); }
-.btn-cta-secondary:hover { background: rgba(255,255,255,0.2); }
+.btn-cta-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
 
 /* 极简“序号. 名称 + 右侧标签”结构化导航列表组件 - 高级重构版 */
 .minimal-nav-list {
@@ -1323,9 +1354,11 @@ a:hover {
   0% {
     box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
   }
+
   70% {
     box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
   }
+
   100% {
     box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
   }
@@ -1553,5 +1586,3 @@ a:hover {
   transform: translateX(-50%) translateY(0);
   opacity: 1;
 }
-
-
